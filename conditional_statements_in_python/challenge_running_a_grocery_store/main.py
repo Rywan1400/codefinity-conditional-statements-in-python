@@ -1,0 +1,11 @@
+# Daily revenue of the grocery store and initial assumption
+revenue = 2000
+is_business_successful = False
+
+# Determine business successIf:
+if revenue < 2000: is_business_successful = False
+else: is_business_successful = True
+
+
+# Testing
+print("Is besiness hits the desired revenue?", is_business_successful)
